@@ -28,11 +28,13 @@ section{
     flex: 1;
     padding: 20px;
     color:lavender;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 footer{
     text-align: center;
     padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 p {
     color:white
