@@ -17,6 +17,10 @@ body {
     display: flex;
     flex-direction: column;
     position: relative;
+    cursor: url(cursorAuto.png), auto ;
+}
+button, a {
+    cursor: url(cursorSelect.png), pointer;
 }
 body::before {
     content: '';
@@ -50,4 +54,30 @@ footer{
 }
 p {
     color:white
+}
+#playButton {
+    background-color: #2c2c2c;
+    color: #B22222; 
+    padding: 10px 25px; /* Tamaño del botón */
+    font-size: 18px; /* Tamaño del texto */
+    font-family: 'Garamond', 'Times New Roman', serif; 
+    border: 2px solid #B22222; 
+    border-radius: 8px; 
+    cursor: pointer;
+    transition: all 0.3s ease; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7); 
+    cursor: url(cursorSelect.png), pointer;
+}
+
+#playButton:hover {
+    background-color: #1a1a1a; 
+    color: #fff; 
+    transform: scale(1.1); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.9); 
+}
+
+#playButton:active {
+    background-color: #000; 
+    transform: scale(1); 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
 }
